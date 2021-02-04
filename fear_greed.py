@@ -4,7 +4,7 @@ import requests
 url = "https://money.cnn.com/data/fear-and-greed/"
 token = "Fear &amp; Greed Now: "
 fear = 20
-greed = 80
+greed = 70
 
 
 class get_fear_geed_index():
