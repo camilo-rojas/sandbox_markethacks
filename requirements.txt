@@ -2,3 +2,4 @@ plotly
 pandas
 requests
 yfinance
+ib_insync
