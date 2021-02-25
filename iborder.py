@@ -17,3 +17,5 @@ def orderFilled():
 
 trade.fillEvent += orderFilled
 ib.run()
+
+# ib.trades() and ib.orders() save the trades and orders sent
