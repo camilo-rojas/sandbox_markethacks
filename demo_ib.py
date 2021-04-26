@@ -15,6 +15,7 @@ print(df)
 
 ib.sleep(2)
 market_data = ib.reqMktData(contract, '', False, False)
+# variables in stock, out price, %change, %Volume
 
 print(market_data)
 
@@ -26,3 +27,8 @@ def onPendingTickers(tickers):
 
 ib.pendingTickersEvent += onPendingTickers
 ib.run()
+
+#        df = df.append({'stock': self.symbol, 'price': stock.TickerFundament().get('Price'),
+#                        '%Change': float(stock.TickerFundament().get('Change').strip('%'))/100,
+#                        '%Volume':
+#                        float(stock.TickerFundament().get('Rel Volume'))}, ignore_index=True)

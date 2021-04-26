@@ -4,3 +4,4 @@ requests
 yfinance
 ib_insync
 finvizfinance
+curses
